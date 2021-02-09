@@ -1,0 +1,29 @@
+{
+  "name": "@rive/tsconfig",
+  "version": "1.0.0",
+  "description": "Best practice of TypeScript configuration for React front-end projects",
+  "main": "tsconfig.json",
+  "files": ["tsconfig.json"],
+  "scripts": {
+    "test": "cd tests && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rive/tsconfig.git"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "author": "Guo Yunhe",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rive/tsconfig/issues"
+  },
+  "homepage": "https://github.com/rive/tsconfig#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.1",
+    "react": "^17.0.1",
+    "typescript": "^4.1.3"
+  }
+}
